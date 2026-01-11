@@ -1,0 +1,20 @@
+{
+    "language": "english-us",
+    "dataset_path": "dataset",
+    "class": "PROJECT",
+    "n_face_detection": 30,
+    "face_count": 30,
+    "db_path": "database/enroll.json",
+    "encodings_path": "output/encodings.pickle",
+    "recognizer_path": "output/recognizer.pickle",
+    "le_path": "output/le.pickle",
+    "attendance_path": "output/attendance.json",
+    "detection_method": "hog",
+    "recognition_method": "svm",
+    "confidence_threshold": 0.6,
+    "camera_index": 0,
+    "frame_width": 640,
+    "frame_height": 480,
+    "capture_delay": 0.1,
+    "training_size": 0.75
+}
